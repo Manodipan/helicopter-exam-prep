@@ -1,18 +1,12 @@
 # Helicopter Endsem Prep — PYQ-driven pack
 
-A single-page, offline reader for the helicopter end-semester exam. Scope is
-fixed by the instructor: **one forward-flight numerical** (no derivation) and
-**flapping of blades** for everything else (numericals *and* derivations).
+A PYQ-driven offline helicopter end-semester study pack. The instructor's stated scope is **one forward-flight numerical** (no derivation) and **flapping of blades** for everything else (numericals and derivations). The uploaded older papers are also indexed for short-answer and pattern revision.
 
-The pack is deliberately thin. Rather than theory notes, each section is one
-past-paper question solved the way it is written in the exam — given data,
-formula, substitution, answer with units — plus a one-page formula card for
-the last hour before the paper.
+## Download / read
 
-## Open it
-
-Open `index.html` in a browser. No server, no build step, no network: KaTeX is
-vendored under `vendor/katex/`, so equations render offline.
+- **One-file guide:** open or download [`docs/helicopter-pyq-guide.html`](docs/helicopter-pyq-guide.html). It bundles the notes, topic checklist, persistent study ticks, and KaTeX (including fonts) into one offline HTML file—no server or network required.
+- **App reader:** open `index.html` in a browser for the lightweight section reader and formula card.
+- **Markdown references:** [full notes](docs/pyq-full-notes.md), [PYQ checklist and crosswalk](docs/pyq-topic-checklist.md), and [2-mark definition bank](docs/two-mark-definition-bank.md).
 
 - `←` / `→` — previous / next section
 - `g` — back to the first section
@@ -35,6 +29,10 @@ vendor/katex/         KaTeX 0.16.11 (min css/js, auto-render, woff2 fonts)
 tools/compute.py      verified numerical engine (forward flight, flapping, coning)
 tools/charts.py       power curve, induced-velocity, flapping-frequency sweeps
 tools/svg.py          generators for the figures used in the pack
+docs/helicopter-pyq-guide.html  downloadable, self-contained interactive guide
+docs/pyq-full-notes.md          complete topic notes and worked methods
+docs/two-mark-definition-bank.md exam-ready short definitions
+docs/pyq-topic-checklist.md     PYQ checklist with notes/definition crosswalk
 ```
 
 ## Numerical ground truth
@@ -52,7 +50,8 @@ Run them with `python3 tools/compute.py` and `python3 tools/charts.py`.
 
 ## Status
 
-- [x] verified numerical engine
-- [x] formula card
-- [x] reader (navigation, print, export)
-- [ ] worked solutions added per past-paper question — waiting on the PYQs
+- [x] verified numerical engine and corrected damping/reverse-flow checks
+- [x] topic-by-topic notes, derivations, analogies, and 2-mark definitions
+- [x] PYQ checklist crosswalk to notes and definition entries
+- [x] single-file offline interactive HTML guide with rendered equations
+- [ ] expand any remaining PYQ numerical into a fully detailed, question-specific solution as needed
