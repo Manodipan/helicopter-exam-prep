@@ -1,7 +1,9 @@
 # Helicopter Engineering — PYQ-based full notes
 
-These notes cover the topics appearing in the uploaded 2023–24 and 2026–27 papers. They are written for understanding and exam answers: **idea → variables → derivation/method → check → memory cue**.
+These notes cover the topics appearing in the uploaded 2023–24 and 2026–27 papers. They are written for understanding and exam answers: **idea → variables → derivation/method → check → memory cue**. For fast 2-mark revision, see the separate [two-mark definition bank](two-mark-definition-bank.md).
 
+> **Expected pattern:** You clarified that this year's midsem and endsem carry equal weight and tomorrow's endsem is expected to follow the midsem's 50-mark pattern. The uploaded midsem has five short 2-mark parts plus four 10-mark questions. Prepare crisp definitions/explanations as well as the longer derivations and numericals; the exact topic mix can still vary.
+>
 > **Scope note:** The instructor's current guidance for the upcoming exam was one forward-flight numerical (no derivation) and the rest on flapping (derivations and numericals). Older PYQs include a repeated forward-flight blade-element derivation and several other topics. Learn the repeated derivation well enough to understand it, but prioritize the instructor's current scope if time is short.
 
 ## Conventions and symbols
