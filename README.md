@@ -20,6 +20,10 @@ vendored under `vendor/katex/`, so equations render offline.
 - **Export view** — one continuous page, no sidebar, for printing
 - **Show all** — every section on one scroll
 
+## Flapping derivation reference
+
+The moment balance is explained in [`docs/flapping-moment-balance.md`](docs/flapping-moment-balance.md), using the familiar rotational form `net torque = I × angular acceleration`, with a dimensional check and the centrifugal restoring-torque sign made explicit.
+
 ## Layout
 
 ```
