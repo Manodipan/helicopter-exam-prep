@@ -22,7 +22,7 @@ vendored under `vendor/katex/`, so equations render offline.
 
 ## Flapping derivation reference
 
-The moment balance is explained in [`docs/flapping-moment-balance.md`](docs/flapping-moment-balance.md), using the familiar rotational form `net torque = I × angular acceleration`, with a dimensional check and the centrifugal restoring-torque sign made explicit. The two uploaded papers are indexed as a tickable [`PYQ topic checklist`](docs/pyq-topic-checklist.md), with repeated topics marked and the instructor's current scope called out separately.
+The moment balance is explained in [`docs/flapping-moment-balance.md`](docs/flapping-moment-balance.md), using the familiar rotational form `net torque = I × angular acceleration`, with a dimensional check and the centrifugal restoring-torque sign made explicit. The two uploaded papers are indexed as a tickable [`PYQ topic checklist`](docs/pyq-topic-checklist.md), with repeated topics marked and the instructor's current scope called out separately. The complete study reference—with derivations, numerical methods, analogies, exam cues and worked PYQ calculations—is [`docs/pyq-full-notes.md`](docs/pyq-full-notes.md).
 
 ## Layout
 

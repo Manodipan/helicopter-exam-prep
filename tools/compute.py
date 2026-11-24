@@ -101,12 +101,11 @@ box("D. HINGE OFFSET, FREQUENCY, DAMPING")
 for e in [0.04, 0.06, 0.1]:
     eps = 3 * e / (2 * (1 - e))
     wb = math.sqrt(1 + eps)
-    eta = (1 - e)**3 * (1 + e) / 3
+    eta = (1 - e)**3 * (3 + e) / 3
     for gamx in [6, 8]:
-        zeta = gamx / (16 * wb)
-        zeta_eta = gamx * eta / (16 * wb)
-        print(f"e={e:.2f} eps={eps:.4f} wb/Om={wb:.4f} eta={eta:.4f} gamma={gamx}: "
-              f"zeta={zeta:.3f}  zeta(with eta)={zeta_eta:.3f}")
+        xi = gamx * eta / (16 * wb)
+        print(f"e={e:.2f} eps={eps:.4f} wb/Om={wb:.4f} eta={eta:.4f} "
+              f"gamma={gamx}: xi={xi:.4f}")
 e = 0.06
 print("class example e=0.0625: sqrt(1+e) =", round(math.sqrt(1 + 0.0625), 4),
       " sqrt(1+eps) =", round(math.sqrt(1 + 3*0.0625/(2*(1-0.0625))), 4))
@@ -115,7 +114,7 @@ print("class example e=0.0625: sqrt(1+e) =", round(math.sqrt(1 + 0.0625), 4),
 box("E. LIMITS: REVERSE FLOW, TIP MACH, STALL")
 for mu_l in [0.2, 0.3, 0.4]:
     print(f"mu={mu_l}: reversed-flow diameter d = mu*R = {mu_l*R:.2f} m  (R={R} m), "
-          f"area fraction approx = {math.pi*mu_l**2/4*100:.2f} %")
+          f"area fraction = {mu_l**2/4*100:.2f} %")
 a_sound = 340.0
 for Vk in [200, 250, 300]:
     Vm = Vk / 3.6
