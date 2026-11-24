@@ -85,7 +85,7 @@ window.SECTIONS = [
   <div class="card">
     <div class="ch">Forward-flight flapping</div>
     <div class="fx key">$$a_0=\frac{\gamma}{8}\left[\theta_0(1+\mu^2)-\tfrac43\lambda\right]$$</div>
-    <div class="fx key">$$a_1=\frac{\mu\,(8\theta_0-2\lambda)}{3\left(1-\mu^2/2\right)}\qquad b_1=\frac{\tfrac43\,\mu\,a_0}{1+\mu^2/2}$$</div>
+    <div class="fx key">$$a_1=\frac{\mu\left(\tfrac83\theta_0-2\lambda\right)}{1-\mu^2/2}\qquad b_1=\frac{\tfrac43\,\mu\,a_0}{1+\mu^2/2}$$</div>
   </div>
 
   <div class="card">
