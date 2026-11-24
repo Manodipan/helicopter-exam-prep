@@ -5,6 +5,7 @@ A PYQ-driven offline helicopter end-semester study pack. The instructor's stated
 ## Download / read
 
 - **One-file guide:** open or download [`docs/helicopter-pyq-guide.html`](docs/helicopter-pyq-guide.html). It bundles the notes, topic checklist, persistent study ticks, and KaTeX (including fonts) into one offline HTML file—no server or network required.
+- **Story-flow guide:** [`docs/helicopter-flight-story.html`](docs/helicopter-flight-story.html) retells the same topics as one sortie, from preflight and hover to forward flight, descent, and autorotation.
 - **App reader:** open `index.html` in a browser for the lightweight section reader and formula card.
 - **Markdown references:** [full notes](docs/pyq-full-notes.md), [PYQ checklist and crosswalk](docs/pyq-topic-checklist.md), and [2-mark definition bank](docs/two-mark-definition-bank.md).
 
