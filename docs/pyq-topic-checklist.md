@@ -2,6 +2,36 @@
 
 Based on the uploaded **End-Autumn 2023–24** paper and **Mid-Autumn 2026–27** paper. A tick means the topic has been studied and can be answered without notes. ★ marks a repeat across these two papers.
 
+## Checklist → notes map
+
+Every checklist item below points to the corresponding numbered section in [`pyq-full-notes.md`](pyq-full-notes.md). Short-answer definitions are in [`two-mark-definition-bank.md`](two-mark-definition-bank.md). The definition number is shown where one exists.
+
+| Checklist topic | Full notes section(s) | 2-mark definition |
+|---|---:|---:|
+| Dissymmetry of lift | §1 | #1 |
+| Gyroscopic effect / precession | §2 | #9 |
+| Collective and cyclic pitch | §3, §9 | #7–8 |
+| Cyclic pitch / flap harmonics and coefficients | §3, §8–9 | #8, #10 |
+| Coning; excessive coning; coning numerical | §13 | #11 |
+| Rotor-disc tilt | §17 | #13 |
+| Lead–lag hinge | §16 | #12 |
+| Ground resonance | §6 | #6 |
+| Autorotation | §5 | #5 |
+| Blade-element derivation of forward-flight \(C_T\) | §7 | #17–18 |
+| Velocity components by azimuth | §4 | #2–3 |
+| Reverse-flow circle, radius, centre, area | §4 | #3 |
+| Forward-flight \(C_T\) numerical | §8 | #18 |
+| Find lift-curve slope from rotor data | §9 | #20–21 |
+| Forward-flight cyclic coefficients | §9 | #8 |
+| Parasite drag factor \(f/A\) | §10 | #23 |
+| Flapping moment equation / \(\tau=I\alpha\) | §14 | #10 |
+| Hinge-offset frequency and damping | §15 | #14–15 |
+| Climb rate | §11 | #24 |
+| Descent induced power | §12 | #22 |
+| Hover induced velocity and power | §8, §11–12 | #22 |
+
+**Coverage note:** the full notes contain worked values where the PYQ data and convention determine an answer (coning, forward-flight \(C_T\), climb estimate, descent estimate, and \(f/A\) estimate). For the 2026–27 lift-curve-slope question, the scan does not define the twist sign/distribution clearly, so the notes give the full setup and identify the missing interpretation rather than inventing a unique answer. The cyclic-coefficient question has a complete calculation workflow and class sign convention; use the course's intended inputs/convention for the final substitution.
+
 ## A. Flapping, rotor response, and controls
 
 - [ ] ★ **Dissymmetry of lift in forward flight**: advancing vs retreating blade; why unequal lift creates a rolling moment; how flapping/ cyclic control removes or balances it. (2023–24 Q1a; 2026–27 Q1e)
